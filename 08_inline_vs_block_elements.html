@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline vs Block</title>
+</head>
+<body>
+    <p style="border:2px green solid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut provident sapiente excepturi consequuntur aperiam optio quibusdam hic vitae. <strong>Lorem ipsum dolor sit.</strong> Ipsam dignissimos neque eos corrupti reiciendis soluta omnis animi nulla ullam esse?</p>
+    <p style="border:2px green solid" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, dolores tenetur nesciunt aliquam eum voluptatum. Atque obcaecati rerum blanditiis eaque.</p>
+
+    <a href="#" style="border:2px red solid" >A Link</a>
+    <a href="#" style="border:2px red solid" >A Link</a>
+
+    <!-- because of 'p' is block element the border goes across all over the
+    page but 'a' of link is inline element so it borders only itself-->
+
+    <!--                                                                            - Block elements: starts on a NEW line and take full width all across available.
+    
+        - Inline elements: displays on 'same' line, do NOT start on NEW line and
+    if you try to set height or width to elements, it will have NO effects.
+
+        - Inline-Block elements: same as inline elements but except you CAN set 
+    width and height values.
+    -->
+
+
+    <!--
+        SOME EXAMPLES:
+        
+        span, a , img -> Inline
+            
+        em, strong, i, small -> Inherently inline 
+        
+        -------------------------------------------
+    
+        div, h1, p, li, section -> Block -->
+
+</body>
+</html>

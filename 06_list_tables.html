@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List & Tables</title>
+</head>
+<body>
+    <!-- Unordered Lists -->
+    <ul style="list-style: square;">
+    <!-- you can change style of list -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <!-- Ordered Lists -->
+    <ol type="A">
+        <!-- you can change type of ordered lists like roman numerals etc. -->
+        <!-- instead of bullets we have numbers -->
+        <!-- li*4 and hit enter for generate 4 list items -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <!-- Nested Lists -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ul>
+                <li>Nested Item 1</li>
+                <li>Nested Item 2</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <!-- Tables -->
+    <table style="width: 600px">
+        <!-- you can style table and change width but its preferred to do in CSS -->
+        <!-- inside of table there are some kind of head body foot and etc. 'tr' for rows, 'td' for columns and 'th' for heads of columns -->
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>janedoe@gmail.com</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>jdoe@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kate</td>
+                <td>Smith</td>
+                <td>kate@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
